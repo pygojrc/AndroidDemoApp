@@ -8,7 +8,9 @@
 - Kotlin + Jetpack Compose + Material 3
 - Android 17（API 37）编译和目标版本
 - Edge-to-edge 与完整 WindowInsets 适配
-- 底部导航栏和稳定版 Navigation 3
+- 底部导航栏、左侧侧边菜单和稳定版 Navigation 3
+- 常用 Material 3 组件与可展开 FAB
+- 无需特殊权限的应用内可拖动悬浮框
 - 状态栏、导航栏、刘海/挖孔屏与 IME 适配
 - 浅色、深色和动态配色
 - 国漫风美少女头像 adaptive icon
@@ -31,7 +33,9 @@ git clone git@github.com:pygojrc/AndroidDemoApp.git \
 
 ```bash
 cd assets/demo
-JAVA_HOME=/home/ms/.jdks/jdk-17.0.19 ./gradlew :app:assembleDebug
+ANDROID_HOME=/home/ms/Android/Sdk \
+  JAVA_HOME=/home/ms/.jdks/jdk-17.0.19 \
+  ./gradlew :app:assembleDebug
 ```
 
 Debug APK 输出到：
@@ -50,3 +54,5 @@ uv run scripts/创建项目.py \
 ```
 
 详细规范见 [模板规范](references/模板规范.md) 和 [验收清单](references/验收清单.md)。
+
+Demo 的页面、组件、操作方法和实现边界见 [Demo 说明](assets/demo/README.md)。

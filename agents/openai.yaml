@@ -1,10 +1,10 @@
 interface:
   display_name: "现代 Android App"
-  short_description: "基于可编译模板创建 Android 13+ Compose APK"
+  short_description: "基于带导航和组件 Demo 创建 Android 13+ Compose APK"
   icon_small: "./assets/demo/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.webp"
   icon_large: "./assets/demo/icon-source/国漫美少女头像.png"
   brand_color: "#9C4A78"
-  default_prompt: "使用 $android-modern-app 基于内置 Demo 创建一个现代 Android 13+ Compose APK。"
+  default_prompt: "使用 $android-modern-app 基于内置导航和组件 Demo 创建一个现代 Android 13+ Compose APK。"
 
 policy:
   allow_implicit_invocation: true

@@ -3,27 +3,60 @@
     <string name="app_name">现代 Android 示例</string>
 
     <string name="navigation_home">首页</string>
-    <string name="navigation_input">输入</string>
+    <string name="navigation_components">组件</string>
     <string name="navigation_settings">设置</string>
+    <string name="navigation_about">关于</string>
     <string name="title_home">首页</string>
-    <string name="title_input">输入</string>
+    <string name="title_components">组件</string>
     <string name="title_settings">设置</string>
+
+    <string name="action_open_drawer">打开侧边菜单</string>
+    <string name="action_open_floating_menu">展开悬浮操作</string>
+    <string name="action_close_floating_menu">收起悬浮操作</string>
+    <string name="action_close">关闭</string>
+    <string name="action_confirm">确定</string>
+    <string name="drawer_subtitle">Android 13+ Compose Demo</string>
+    <string name="about_title">关于 Demo</string>
+    <string name="about_description">这是 android-modern-app Skill 使用的最小可编译模板，集中演示导航、Insets、主题和常用 Material 3 组件。</string>
 
     <string name="home_welcome">现代 Android，从可靠模板开始</string>
     <string name="home_description">这个 Demo 展示 Android 13+ Compose 应用的基础结构，并把系统栏、底部导航和键盘遮挡处理放在统一边界内。</string>
     <string name="feature_insets_title">Edge-to-edge 与 Insets</string>
     <string name="feature_insets_description">顶部栏、页面内容、底部导航和软键盘各自处理明确的安全区域，避免重复 padding。</string>
     <string name="feature_navigation_title">Compose-first Navigation 3</string>
-    <string name="feature_navigation_description">返回栈由应用持有，三个一级页面具备直接、可扩展的导航行为。</string>
+    <string name="feature_navigation_description">返回栈由应用持有，底部导航和左侧抽屉共享同一套一级页面状态。</string>
     <string name="feature_theme_title">Material 3 主题</string>
     <string name="feature_theme_description">默认跟随系统深色模式并启用动态配色，同时提供完整回退色板。</string>
 
-    <string name="input_heading">输入内容</string>
     <string name="input_description">点击输入框弹出软键盘，滚动内容和主要操作按钮应保持可见。</string>
     <string name="input_title_label">标题</string>
     <string name="input_content_label">正文</string>
-    <string name="input_submit">保存示例</string>
-    <string name="input_saved">已保存：%1$s</string>
+
+    <string name="components_heading">常用 Compose 组件</string>
+    <string name="components_description">这里集中展示反馈、弹层、表单和应用内悬浮组件，不引入第三方 UI 依赖。</string>
+    <string name="components_feedback_title">反馈与弹层</string>
+    <string name="components_show_snackbar">Snackbar</string>
+    <string name="components_show_dialog">对话框</string>
+    <string name="components_show_bottom_sheet">底部弹层</string>
+    <string name="components_show_menu">下拉菜单</string>
+    <string name="components_menu_first">示例操作一</string>
+    <string name="components_menu_second">示例操作二</string>
+    <string name="components_snackbar_message">这是一个不会遮挡底部导航的 Snackbar。</string>
+    <string name="components_dialog_title">Material 3 对话框</string>
+    <string name="components_dialog_description">对话框状态由当前页面持有，关闭后不会影响导航返回栈。</string>
+    <string name="components_bottom_sheet_title">Material 3 底部弹层</string>
+    <string name="components_bottom_sheet_description">底部弹层由根界面显示，并为系统导航区域保留安全空间。</string>
+    <string name="components_floating_title">应用内悬浮组件</string>
+    <string name="components_floating_description">右下角 FAB 可展开快捷操作；悬浮框只能在当前页面的安全内容区域内拖动，不需要悬浮窗权限。</string>
+    <string name="components_show_floating_panel">显示悬浮框</string>
+    <string name="components_hide_floating_panel">隐藏悬浮框</string>
+    <string name="floating_panel_title">可拖动悬浮框</string>
+    <string name="floating_panel_description">按住卡片拖动。旋转或改变窗口尺寸后，位置会重新限制在可见范围内。</string>
+    <string name="components_controls_title">选择与调节</string>
+    <string name="components_checkbox">Checkbox 示例</string>
+    <string name="components_switch">Switch 示例</string>
+    <string name="components_slider">Slider 示例</string>
+    <string name="components_input_title">输入与 IME</string>
 
     <string name="settings_appearance">外观</string>
     <string name="settings_dynamic_color">动态配色</string>

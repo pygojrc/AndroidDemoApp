@@ -10,7 +10,7 @@ import kotlinx.serialization.Serializable
 data object HomeDestination : NavKey
 
 @Serializable
-data object InputDestination : NavKey
+data object ComponentsDestination : NavKey
 
 @Serializable
 data object SettingsDestination : NavKey
@@ -24,14 +24,19 @@ data class NavigationItem(
 
 val navigationItems = listOf(
     NavigationItem(HomeDestination, R.string.navigation_home, R.drawable.ic_home, "navigation_home"),
-    NavigationItem(InputDestination, R.string.navigation_input, R.drawable.ic_input, "navigation_input"),
+    NavigationItem(
+        ComponentsDestination,
+        R.string.navigation_components,
+        R.drawable.ic_components,
+        "navigation_components",
+    ),
     NavigationItem(SettingsDestination, R.string.navigation_settings, R.drawable.ic_settings, "navigation_settings"),
 )
 
 @StringRes
 fun NavKey.titleRes(): Int = when (this) {
     HomeDestination -> R.string.title_home
-    InputDestination -> R.string.title_input
+    ComponentsDestination -> R.string.title_components
     SettingsDestination -> R.string.title_settings
     else -> R.string.app_name
 }

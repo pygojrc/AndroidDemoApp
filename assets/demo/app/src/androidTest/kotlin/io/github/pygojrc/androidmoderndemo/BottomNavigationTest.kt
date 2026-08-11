@@ -14,8 +14,8 @@ class BottomNavigationTest {
 
     @Test
     fun bottomNavigationSwitchesScreens() {
-        composeRule.onNodeWithTag("navigation_input").performClick()
-        composeRule.onNodeWithText("输入内容").assertIsDisplayed()
+        composeRule.onNodeWithTag("navigation_components").performClick()
+        composeRule.onNodeWithText("常用 Compose 组件").assertIsDisplayed()
 
         composeRule.onNodeWithTag("navigation_settings").performClick()
         composeRule.onNodeWithText("外观").assertIsDisplayed()
