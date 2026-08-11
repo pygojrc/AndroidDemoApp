@@ -1,0 +1,17 @@
+# Gradle 与 Android Studio
+.gradle/
+.idea/
+*.iml
+local.properties
+**/build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# MS 工作区临时产物
+.ms/**/build/
+.ms/**/temp/

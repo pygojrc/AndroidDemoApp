@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">现代 Android 示例</string>
+
+    <string name="navigation_home">首页</string>
+    <string name="navigation_input">输入</string>
+    <string name="navigation_settings">设置</string>
+    <string name="title_home">首页</string>
+    <string name="title_input">输入</string>
+    <string name="title_settings">设置</string>
+
+    <string name="home_welcome">现代 Android，从可靠模板开始</string>
+    <string name="home_description">这个 Demo 展示 Android 13+ Compose 应用的基础结构，并把系统栏、底部导航和键盘遮挡处理放在统一边界内。</string>
+    <string name="feature_insets_title">Edge-to-edge 与 Insets</string>
+    <string name="feature_insets_description">顶部栏、页面内容、底部导航和软键盘各自处理明确的安全区域，避免重复 padding。</string>
+    <string name="feature_navigation_title">Compose-first Navigation 3</string>
+    <string name="feature_navigation_description">返回栈由应用持有，三个一级页面具备直接、可扩展的导航行为。</string>
+    <string name="feature_theme_title">Material 3 主题</string>
+    <string name="feature_theme_description">默认跟随系统深色模式并启用动态配色，同时提供完整回退色板。</string>
+
+    <string name="input_heading">输入内容</string>
+    <string name="input_description">点击输入框弹出软键盘，滚动内容和主要操作按钮应保持可见。</string>
+    <string name="input_title_label">标题</string>
+    <string name="input_content_label">正文</string>
+    <string name="input_submit">保存示例</string>
+    <string name="input_saved">已保存：%1$s</string>
+
+    <string name="settings_appearance">外观</string>
+    <string name="settings_dynamic_color">动态配色</string>
+    <string name="settings_dynamic_color_description">使用当前系统壁纸生成的 Material 3 色彩</string>
+    <string name="settings_dark_mode">深色模式</string>
+    <string name="settings_dark_mode_description">默认跟随 Android 系统设置</string>
+    <string name="settings_platform">平台基线</string>
+    <string name="settings_platform_description">Android 13（API 33）及以上</string>
+</resources>
